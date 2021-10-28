@@ -11,7 +11,6 @@ def place_mark():
     while colomn < 0 or colomn > 2:
         colomn = int(input("You choice, colomn 0,1 or 2?"))
     return row, colomn
-
 def check_game(board,mark):
     #Win check
     if board[0][0]==board[0][1]==board[0][2]==mark or board[0][0]==board[1][0]==board[2][0]==mark or \
