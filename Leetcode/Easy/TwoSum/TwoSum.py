@@ -1,6 +1,7 @@
 class Solution:
     def twoSum(self, nums, target):
         seen = {}
+        # go thru array and add number to hash table and also check presence of remaining
         for i,num in enumerate(nums):
             remaining = target - num
             if remaining in seen:
