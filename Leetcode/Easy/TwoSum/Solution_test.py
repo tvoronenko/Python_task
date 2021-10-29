@@ -1,4 +1,4 @@
-from .TwoSum import Solution
+from .Solution import Solution
 
 def test_basic():
     solution = Solution()
