@@ -8,6 +8,8 @@ class Solution:
                 max_sum = max(current_sum, max_sum)
         return max_sum
 
+    # complexity time O(n)
+    # space complexity O(1)
     def maxSubArray(self, nums):
         max_sum = nums[0]
         current_sum = nums[0]
@@ -17,7 +19,10 @@ class Solution:
             # select max between current sum and prev sum
             max_sum = max(max_sum,current_sum)
         return max_sum
+
     # the same as above but more here formula is more understandable
+    # complexity time O(n)
+    # space complexity O(n)
     def maxSubArray_dp(self, nums):
         dp = [0] * len(nums)
         dp[0] = nums[0]
