@@ -21,6 +21,9 @@ class Solution:
         def get_key_rule(log):
           # we need only one split between key and rest of log
             _id, remain = log.split(" ",maxsplit=1)
+            # create order
+            # 0 position in sorting for non digit log that sort by value and than by key
+            # 1 position in sorting if it is digit log
             if remain[0].isdigit():
                 return (1,)
             else:

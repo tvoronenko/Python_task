@@ -3,13 +3,14 @@
 
 class Solution:
     def validPalindrome(self, s: str) -> bool:
+        # utility function to check if s is palindrome from i to j
         def isPalidrome(s,i,j):
             while i < j:
                 if s[i] != s[j]:
                     return False
-            else:
-                i += 1
-                j -= 1
+                else:
+                    i += 1
+                    j -= 1
             return True
 
         i, j = 0, len(s) - 1
