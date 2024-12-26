@@ -45,6 +45,7 @@ if __name__ == '__main__':
     b.create_linked_list([8,49,106,116,112])
     assert (s.remove_nth_last_node(a.head , 6).create_list() == b.head.create_list())
 '''
+Questions:
 1. Clarifying Input and Output
 What should I return if the list has fewer than n nodes? Should I return the original list, or is it guaranteed that n is always valid?
 What should I return if n equals the length of the list? Should I remove the head in this case, or is there a special case to handle?
@@ -61,4 +62,15 @@ Do I need to handle memory cleanup for the removed node? In languages like C/C++
 Can the list contain null/None nodes? Should I handle null nodes within the list, or can I assume the list will be properly constructed with non-null nodes?
 Is the list circular or guaranteed to be a standard singly linked list? Just to confirm the structure of the list being used.
 
+Tests:
+1. General Case
+2. Single Node
+3. Remove Head
+4. List of Size n
+5. Remove Last Node
+6. Large List
+7. Edge Case: Remove From Start in Large List
+8. Edge Case: Remove Last in Large List
+1. Empty List 
+2. Invalid n 
 '''
