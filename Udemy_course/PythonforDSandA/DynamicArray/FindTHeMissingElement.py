@@ -23,6 +23,6 @@ class TestFinder(object):
         'ALL TEST CASES PASSED'
 
 
-# Run test
+# Run test_show.py
 t = TestFinder()
 t.test(finder)

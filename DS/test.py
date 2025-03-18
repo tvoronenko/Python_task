@@ -17,4 +17,4 @@ class Solution:
 if __name__ == '__main__':
     # begin
     s = Solution()
-    assert (s.findWord( "test testing word test of word test", "test") == [0, 18, 31])
+    assert (s.findWord( "test_show.py testing word test_show.py of word test_show.py", "test_show.py") == [0, 18, 31])

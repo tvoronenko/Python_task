@@ -124,7 +124,7 @@ assert three_sum_exists([1000000, -1000000, 1, 2, 3], 3) == True  # 1 + 2 + 3 = 
 assert three_sum_exists([1000000, -1000000, 1, 2, 3], 100) == False  # No triplet sums to 100
 
 Floating-Point Numbers
-If the problem allows floating-point values, test for precision handling.
+If the problem allows floating-point values, test_show.py for precision handling.
 assert three_sum_exists([1.1, 2.2, 3.3, 4.4], 6.6) == True  # 1.1 + 2.2 + 3.3 = 6.6
 assert three_sum_exists([1.1, 2.2, 3.3, 4.4], 7.0) == False  # No triplet sums to 7.0
 

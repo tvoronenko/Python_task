@@ -67,7 +67,7 @@ assert is_palindrome("A man, a plan, a canal: Panama") == True
 assert is_palindrome("Was it a car or a cat I saw?") == True
 assert is_palindrome("No lemon, no melon") == True
 
-# Case-sensitive test
+# Case-sensitive test_show.py
 assert is_palindrome("Racecar") == True
 
 2. Edge Cases

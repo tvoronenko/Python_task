@@ -127,7 +127,7 @@ assert is_happy_number(19) == True  # Test repeated calls with the same input
 
 Very Large Number:
 Test the function with a very large number to ensure it handles high values:
-assert is_happy_number(987654321) == False  # Stress test with a large input
+assert is_happy_number(987654321) == False  # Stress test_show.py with a large input
 
 Negative Numbers:
 If negative numbers are allowed (or explicitly disallowed), define behavior:

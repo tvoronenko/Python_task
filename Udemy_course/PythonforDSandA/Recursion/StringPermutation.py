@@ -20,7 +20,7 @@ class TestPerm(object):
         assert_equal(sorted(solution('dog')), sorted(['dog', 'dgo', 'odg', 'ogd', 'gdo', 'god']))
 
         print
-        'All test cases passed.'
+        'All test_show.py cases passed.'
 
 
 # Run Tests

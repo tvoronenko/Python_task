@@ -31,6 +31,6 @@ class ReversalTest(object):
         assert_equal(sol('1') ,'1')
         print("ALL TEST CASES PASSED")
 
-# Run and test
+# Run and test_show.py
 t = ReversalTest()
 t.test(rev_word)
